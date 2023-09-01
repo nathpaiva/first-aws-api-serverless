@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "My first aws API serverless",
   "author": "Nath Paiva",
+  "engines": {
+    "node": "18.17.0"
+  },
   "scripts": {
     "start": "sls offline start --reloadHandler",
     "test": "jest"
@@ -26,6 +29,8 @@
     "serverless-dotenv-plugin": "^6.0.0",
     "serverless-offline": "^12.0.4",
     "serverless-plugin-typescript": "^2.1.5",
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   }
 }
