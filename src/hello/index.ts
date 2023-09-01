@@ -5,7 +5,7 @@ export const hello = async (
 ): Promise<APIGatewayProxyResult> => {
   try {
     if (!event.pathParameters?.id) {
-      throw new Error('You mush provide an id')
+      throw new Error('You must provide an id')
     }
 
     return {
