@@ -10,5 +10,6 @@
     "esModuleInterop": true,
     "lib": ["es2015"],
     "rootDir": "./"
-  }
+  },
+  "exclude": ["node_modules"]
 }
